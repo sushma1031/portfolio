@@ -1,0 +1,84 @@
+body {
+  background-color: #ede0fe;
+}
+
+h1 {
+  color:rgb(122, 74, 144);
+}
+
+h3 {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  color: rgb(51, 2, 51);
+}
+
+hr {
+  margin-left: auto;
+  margin-right: auto;
+  border-style: none;
+  border-top: 3px dotted gray;
+  border-width: 5px;
+  width: 5%;
+}
+
+img {
+  border-radius: 50%;
+  border: 2px solid rgb(26, 26, 26);
+  height: 130px;
+}
+
+.aligned {
+  display: flex;
+  align-items: center;
+}
+
+.current {
+  margin-left: 12px;
+  line-height: 30px;
+}
+
+.background {
+  display: flex;
+  justify-content: center;
+  line-height: 30px;
+}
+.background>div:first-child {
+  margin-right: 100px;
+}
+
+ul.education li {
+  padding: 2px;
+}
+
+ul.hobbies {  
+  display: block;
+  list-style-type: none;
+  text-align: center;
+  padding: 0;
+  overflow: hidden;
+}
+
+ul.hobbies li{
+  display: inline-block;
+  padding: 0 0.5rem;
+  min-width: 5rem;
+  text-align: center;
+}
+
+ul.hobbies li:not(:last-child) {
+  border-right: 1px solid gray;
+}
+
+.centre {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#skills {
+  width: 40px;
+  text-align: center;
+}
+
+
+

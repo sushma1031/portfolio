@@ -5,43 +5,45 @@
   <meta charset="utf-8" />
   <title>Sushma's Personal Site</title>
   <link rel="icon" href="https://static.thenounproject.com/png/167700-200.png" type="image/png" />
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-  <table>
-    <tr>
-      <td width="200px">
-        <img src="profile image.png" alt="An image of Sushma Jayaram">
-      </td>
-      <td>
-        <h1>SUSHMA JAYARAM</h1>
-        <p>
-          <em>
-            Currently pursuing Bachelor of Engineering <br />
-            <a href="https://bit-bangalore.edu.in/">
-              Bangalore Institute of Technology
-            </a>
-            <br />
-            Karnataka, India <br />
-            Contact me: myemailaddress@x.com or <a href="contact.html">click here</a><br />
-          </em>
-      </td>
-    </tr>
-  </table>
+  <h1>SUSHMA JAYARAM</h1>
+  <div class="aligned">
+    <img src="profile image.png" alt="An image of Sushma Jayaram">
+    <div class="current">
+      <p>
+        <em>
+          Currently pursuing Bachelor of Engineering <br />
+          <a href="https://bit-bangalore.edu.in/">
+            Bangalore Institute of Technology
+          </a>
+          <br />
+          Karnataka, India <br />
+          Contact me: myemailaddress@x.com or <a href="contact.html">click here</a><br />
+        </em>
+      </p>
+    </div>
+  </div>
   <p>
     I'm a CS student, always on the lookout to learn new skills. When I'm not coding(see also: breaking down),
     I'm either nose deep in a book, or indulging myself by working on a fan video edit ♡
   </p>
   <hr>
-  <h3>Education</h3>
+  <div class="background">
+  <div>
+    <h3>Education</h3>
   <p>
-  <ul>
-    <li>B.E., Bangalore Institute of Technology</li>
-    <li>Grade 11 - 12, Sophia High School</li>
-    <li>Grade 6 - 10, Cluny Convent High School</li>
-    <li>Kindergarten - 5, IISD, Kingdom of Saudi Arabia</li>
+  <ul class="education">
+    <li>B.E.: Bangalore Institute of Technology</li>
+    <li>Grade 11 - 12: Sophia High School</li>
+    <li>Grade 6 - 10: Cluny Convent High School</li>
+    <li>Kindergarten - 5: IISD, Kingdom of Saudi Arabia</li>
   </ul>
   </p>
+  </div>
+  <div class="activities">
   <h3>Activities</h3>
   <table>
     <tr>
@@ -61,9 +63,11 @@
       <td>Sub Core GDSC</td>
     </tr>
   </table>
+  </div>
+  </div>
   <h3>Hobbies</h3>
   <p>
-  <ul>
+  <ul class="hobbies">
     <li>
       <a href="https://www.goodreads.com/user/show/14027815-sushma-jayaram">Reading books</a>
     </li>
@@ -74,8 +78,8 @@
   </ul>
   </p>
   <hr>
-  <h3>Skills</h3>
-  <table>
+  <h3 id="skills">Skills</h3>
+  <table class="centre">
     <tr>
       <td>
         <table cellspacing="20px">
