@@ -6,36 +6,44 @@ h1 {
   color:rgb(122, 74, 144);
 }
 
+#name {
+  font-size: 30px;
+  font-weight: 600;
+}
+
 h3 {
-  text-align: center;
   margin-left: auto;
   margin-right: auto;
   color: rgb(51, 2, 51);
+  text-align: center;
+}
+
+h3:hover {
+  color: rgb(160, 195, 241)
 }
 
 hr {
-  margin-left: auto;
-  margin-right: auto;
   border-style: none;
   border-top: 3px dotted gray;
   border-width: 5px;
+  margin-left: auto;
+  margin-right: auto;
   width: 5%;
 }
 
 img {
   border-radius: 50%;
-  border: 2px solid rgb(26, 26, 26);
-  height: 130px;
+  height: 150px;
 }
 
 .aligned {
-  display: flex;
   align-items: center;
+  display: flex;
 }
 
 .current {
-  margin-left: 12px;
-  line-height: 30px;
+  line-height: 25px;
+  margin-left: 15px;
 }
 
 .background {
@@ -43,7 +51,7 @@ img {
   justify-content: center;
   line-height: 30px;
 }
-.background>div:first-child {
+.background div:first-child {
   margin-right: 100px;
 }
 
@@ -51,18 +59,31 @@ ul.education li {
   padding: 2px;
 }
 
+table.activities {
+  border-collapse: collapse;
+}
+
+table.activities tr td {
+  border: none;
+  padding: 2px;
+}
+
+table.activities tr td:last-child {
+  border-left: 1px solid rgb(0, 0, 0);
+  padding-left: 15px;
+}
+
 ul.hobbies {  
   display: block;
   list-style-type: none;
-  text-align: center;
   padding: 0;
-  overflow: hidden;
+  text-align: center;
 }
 
 ul.hobbies li{
   display: inline-block;
-  padding: 0 0.5rem;
   min-width: 5rem;
+  padding: 0 0.5rem;
   text-align: center;
 }
 
@@ -76,8 +97,8 @@ ul.hobbies li:not(:last-child) {
 }
 
 #skills {
-  width: 40px;
   text-align: center;
+  width: 40px;
 }
 
 
